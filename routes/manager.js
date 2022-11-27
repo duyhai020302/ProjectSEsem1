@@ -16,16 +16,7 @@ router.use('/', isLoggedIn, function checkAuthentication(req, res, next) {
     next();
 });
 
-/**
- * Description:
- * Displays home to the manager
- *
- * Author: Salman Nizam
- *
- * Last Updated: 30th November, 2016
- *
- * Known Bugs: None
- */
+
 
 router.get('/', function viewHomePage(req, res, next) {
 
