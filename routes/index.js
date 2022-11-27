@@ -24,16 +24,7 @@ router.post('/signup', passport.authenticate('local.signup', {
     failureFlash: true,
 }));
 
-/**
- * Description:
- * Displays login page to the user
- *
- * Author: Hassan Qureshi
- *
- * Last Updated: 26th November, 2016
- *
- * Known Bugs: None
- */
+
 
 router.get('/', function viewLoginPage(req, res, next) {
     var messages = req.flash('error');
