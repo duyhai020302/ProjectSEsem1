@@ -37,16 +37,6 @@ router.get('/', function viewLoginPage(req, res, next) {
     });
 });
 
-/**
- * Description:
- * Logs user out from the application by clearing its session.
- *
- * Author: Hassan Qureshi
- *
- * Last Updated: 26th November, 2016
- *
- * Known Bugs: None
- */
 
 router.get('/logout', isLoggedIn, function logoutUser(req, res, next) {
 

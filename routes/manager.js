@@ -37,20 +37,7 @@ router.get('/', function viewHomePage(req, res, next) {
 });
 
 
-/**
- * Description:
- * Checks which type of manager is logged in.
- * Displays the list of employees to the manager respectively.
- * In case of accounts manager checks if user has entry in UserSalary Schema.
- * Then it enters the data in UserSalary Schema if user is not present.
- * Otherwise gets the data from UserSalary Schema and shows the salary of the employees to the accounts manager
- *
- * Author: Salman Nizam
- *
- * Last Updated: 30th November, 2016
- *
- * Known Bugs: None
- */
+
 
 router.get('/view-employees', function viewEmployees(req, res) {
 
