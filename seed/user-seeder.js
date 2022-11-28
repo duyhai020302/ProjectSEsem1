@@ -45,7 +45,7 @@ var users=[
         type: 'admin',
         email: 'admin@admin.com',
         password: bcrypt.hashSync('admin123', bcrypt.genSaltSync(5), null),
-        name: 'Sajjad Ali',
+        name: 'Teamxoilac',
         dateOfBirth: new Date('1990-05-26'),
         contactNumber: '0300-4297859',
     }),
